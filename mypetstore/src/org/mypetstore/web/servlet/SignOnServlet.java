@@ -35,11 +35,11 @@ public class SignOnServlet extends HttpServlet {
         if(account != null){
             HttpServletRequest httpRequest= request;
             String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
-                    + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
+                    + httpRequest.getContextPath() + httpRequest.getServletPath();
 
-            LogService logService = new LogService();
-            String logInfo = logService.logInfo(" ") + strBackUrl + " 用户登录";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            String logInfo = strBackUrl + " 用户登录";
+            session.setAttribute("message", logInfo);
+//            logService.insertLogInfo(account.getUsername(), logInfo);
         }
 
         //获得输入的验证码值
@@ -55,9 +55,9 @@ public class SignOnServlet extends HttpServlet {
 
         if (account == null || !isSame){
             if(!isSame){
-                session.setAttribute("messageSignOn", "Invalid Verification Code.   Signon failed.");
+                session.setAttribute("message", "Invalid Verification Code.   Signon failed.");
             }else{
-                session.setAttribute("messageSignOn", "Invalid username or password.  Signon failed.");
+                session.setAttribute("message", "Invalid username or password.  Signon failed.");
             }
             session.setAttribute("account", null);
             request.getRequestDispatcher(SIGNONFORM).forward(request, response);

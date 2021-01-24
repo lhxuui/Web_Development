@@ -1,8 +1,10 @@
 package org.mypetstore.web.servlet;
 
+import org.mypetstore.domain.Account;
 import org.mypetstore.domain.Category;
 import org.mypetstore.domain.Product;
 import org.mypetstore.service.CatalogService;
+import org.mypetstore.service.LogService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -32,6 +34,17 @@ public class ViewCategoryServlet extends HttpServlet {
         session.setAttribute("category", category);
         session.setAttribute("productList", productList);
 
+        Account account = (Account)req.getAttribute("account");
+
+        if(account != null) {
+            HttpServletRequest httpRequest = req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
+                    + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
+
+            LogService logService = new LogService();
+            String logInfo = logService.logInfo(" ") + strBackUrl + " 查看类别 " + category;
+            session.setAttribute("message", logInfo);
+        }
         req.getRequestDispatcher(VIEW_CATEGORY).forward(req,resp);
     }
 }

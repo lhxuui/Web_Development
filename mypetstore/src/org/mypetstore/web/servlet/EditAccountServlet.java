@@ -29,7 +29,7 @@ public class EditAccountServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 跳转到编辑账号信息界面";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
         }
 
         request.getRequestDispatcher(EDITACOUNT).forward(request, response);

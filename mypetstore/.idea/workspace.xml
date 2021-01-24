@@ -6,11 +6,48 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="" />
+    <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/SessionAttributeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/AddItemToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/AddItemToCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jpetstore/META-INF/jpetstore.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/META-INF/mypetstore.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/AddItemToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/AddItemToCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/AddItemToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/AddItemToCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/Log4InitServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewOrderFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewOrderFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/RemoveItemFormCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/RemoveItemFormCartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SaveAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SaveAccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingAddressServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingAddressServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOffServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewCategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewCategoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewItemServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewItemServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewListOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewListOrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewOrderServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="jpetstore" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +57,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -32,6 +72,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1k4jeNOfUltV0mlvWmiREezhhiJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,8 +80,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/org/mypetstore/domain" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15078124" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -147,14 +188,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="452" y="92" key="#Project_Structure" timestamp="1604966899209">
+    <state x="452" y="92" key="#Project_Structure" timestamp="1606732650364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="92" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604966899209" />
-    <state x="721" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1605523807796">
+    <state x="452" y="92" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606732650364" />
+    <state x="721" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1606732424667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605523807796" />
+    <state x="721" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606732424667" />
     <state x="686" y="387" width="548" height="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605521979293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,62 +204,98 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="266" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605496816937" />
-    <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605428707674">
+    <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606741814575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605428707674" />
-    <state x="690" y="215" key="FileChooserDialogImpl" timestamp="1605350850963">
+    <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606741814575" />
+    <state x="690" y="215" key="FileChooserDialogImpl" timestamp="1607410388086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605350850963" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1605534814970">
+    <state x="690" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607410388086" />
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1606742474467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474467" />
+    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1606742474467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474467" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.1.bottom" timestamp="1605534814971">
+    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.1.bottom" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814971" />
-    <state width="1867" height="267" key="GridCell.Tab.1.center" timestamp="1605534814971">
+    <state width="1867" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.1.center" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814971" />
-    <state width="1867" height="267" key="GridCell.Tab.1.left" timestamp="1605534814971">
+    <state width="1867" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.1.left" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814971" />
-    <state width="1867" height="267" key="GridCell.Tab.1.right" timestamp="1605534814971">
+    <state width="1867" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.1.right" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814971" />
-    <state width="1867" height="267" key="GridCell.Tab.2.bottom" timestamp="1605534814971">
+    <state width="1867" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.2.bottom" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814971" />
-    <state width="1867" height="267" key="GridCell.Tab.2.center" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.2.center" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.2.left" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.2.left" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
-    <state width="1867" height="267" key="GridCell.Tab.2.right" timestamp="1605534814970">
+    <state width="1867" height="267" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.2.right" timestamp="1606742474468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605534814970" />
+    <state width="1867" height="267" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="1867" height="267" key="GridCell.Tab.3.bottom" timestamp="1606741599054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606741599054" />
+    <state width="1867" height="267" key="GridCell.Tab.3.center" timestamp="1606741599054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606741599054" />
+    <state width="1867" height="267" key="GridCell.Tab.3.left" timestamp="1606741599054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606741599054" />
+    <state width="1867" height="267" key="GridCell.Tab.3.right" timestamp="1606741599054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606741599054" />
+    <state width="1867" height="267" key="GridCell.Tab.4.bottom" timestamp="1606741607275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606741607275" />
+    <state width="1867" height="267" key="GridCell.Tab.4.center" timestamp="1606741607274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606741607274" />
+    <state width="1867" height="267" key="GridCell.Tab.4.left" timestamp="1606741607274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606741607274" />
+    <state width="1867" height="267" key="GridCell.Tab.4.right" timestamp="1606741607275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="267" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606741607275" />
+    <state x="495" y="147" width="990" height="746" key="NewModule_or_Project.wizard" timestamp="1607410421440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="495" y="147" width="990" height="746" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607410421440" />
     <state x="333" y="0" key="SettingsEditor" timestamp="1605531053958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

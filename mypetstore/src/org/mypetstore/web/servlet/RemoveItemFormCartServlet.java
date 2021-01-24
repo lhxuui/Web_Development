@@ -3,6 +3,7 @@ package org.mypetstore.web.servlet;
 import org.mypetstore.domain.Account;
 import org.mypetstore.domain.Cart;
 import org.mypetstore.domain.Item;
+import org.mypetstore.domain.Log;
 import org.mypetstore.service.CartService;
 import org.mypetstore.service.CatalogService;
 import org.mypetstore.service.LogService;
@@ -51,7 +52,7 @@ public class RemoveItemFormCartServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 物品为空，不能移除";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
             }
 
             req.getRequestDispatcher(ERROR).forward(req, resp);
@@ -60,9 +61,10 @@ public class RemoveItemFormCartServlet extends HttpServlet {
                 HttpServletRequest httpRequest= req;
                 String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
+
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " " + workingItemId + " 已从购物车中移除";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
             }
 
             req.getRequestDispatcher(VIEW_CART).forward(req, resp);

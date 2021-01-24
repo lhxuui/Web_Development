@@ -28,7 +28,7 @@ public class NewAccountFormServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 跳转到注册新账号界面";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
         }
 
         request.getRequestDispatcher(NEWACCOUNTFORM).forward(request, response);

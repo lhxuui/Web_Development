@@ -68,7 +68,8 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 更新购物车商品数量";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(VIEW_CART).forward(request, response);

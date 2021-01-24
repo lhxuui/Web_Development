@@ -43,7 +43,8 @@ public class ViewListOrderServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 查看订单 " + orderList;
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(VIEWLISTORDER).forward(request, response);

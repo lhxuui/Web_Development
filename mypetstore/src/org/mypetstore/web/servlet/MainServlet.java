@@ -30,8 +30,8 @@ public class MainServlet extends HttpServlet {
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
-            String logInfo = logService.logInfo(" ") + strBackUrl + " 跳转到主界面";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            String logInfo =logService.logInfo("") + strBackUrl + " 跳转到主界面";
+            session.setAttribute("message", logInfo);
         }
         
         req.getRequestDispatcher(MAIN).forward(req, resp);

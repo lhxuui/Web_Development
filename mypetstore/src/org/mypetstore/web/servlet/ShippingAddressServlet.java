@@ -61,7 +61,8 @@ public class ShippingAddressServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 修改订单邮寄地址";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(CONFIRM_ORDER_FORM).forward(request, response);

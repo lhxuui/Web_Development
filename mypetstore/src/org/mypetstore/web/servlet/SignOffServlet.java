@@ -30,7 +30,8 @@ public class SignOffServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 退出账号";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
         account = null;
         session.setAttribute("account", account);

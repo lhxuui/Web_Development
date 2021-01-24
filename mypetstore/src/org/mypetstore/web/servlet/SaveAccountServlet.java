@@ -72,7 +72,8 @@ public class SaveAccountServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 账号信息更改";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(EDITACOUNT).forward(request, response);

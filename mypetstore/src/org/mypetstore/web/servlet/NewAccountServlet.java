@@ -101,7 +101,7 @@ public class NewAccountServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 注册账号，验证码错误";
-                logService.insertLogInfo(account1.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
             }
 
             request.getRequestDispatcher(NEWACCOUNTFORM).forward(request, response);

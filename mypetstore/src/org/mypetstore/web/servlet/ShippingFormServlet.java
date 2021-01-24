@@ -38,7 +38,8 @@ public class ShippingFormServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 跳转到修改地址界面";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
+
             }
 
             request.getRequestDispatcher(SHIPPINGFORM).forward(request, response);

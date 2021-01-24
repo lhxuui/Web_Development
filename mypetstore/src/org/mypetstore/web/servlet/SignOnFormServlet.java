@@ -32,7 +32,8 @@ public class SignOnFormServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 用户进入登录界面";
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(SIGNONFORM).forward(request, response);

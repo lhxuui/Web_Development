@@ -48,7 +48,8 @@ public class NewOrderFormServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 跳转到新订单页面";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
+
             }
 
             request.getRequestDispatcher(NEW_ORDER).forward(request, response);
@@ -64,7 +65,8 @@ public class NewOrderFormServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 生成订单页面信息错误";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
+
             }
 
             request.getRequestDispatcher(ERROR).forward(request, response);

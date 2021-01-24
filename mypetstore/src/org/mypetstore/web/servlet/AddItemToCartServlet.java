@@ -10,11 +10,13 @@ import org.mypetstore.service.LogService;
 
 import javax.servlet.ServletException;
 import javax.servlet.SessionCookieConfig;
+import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+
 
 public class AddItemToCartServlet extends HttpServlet {
 
@@ -72,7 +74,7 @@ public class AddItemToCartServlet extends HttpServlet {
 
                 LogService logService = new LogService();
                 String logInfo = logService.logInfo(" ") + strBackUrl + " 添加物品 " + item + " 到购物车";
-                logService.insertLogInfo(account.getUsername(), logInfo);
+                session.setAttribute("message",logInfo);
             }
             session.setAttribute("cart", cart);
             req.getRequestDispatcher(VIEW_CART).forward(req, resp);

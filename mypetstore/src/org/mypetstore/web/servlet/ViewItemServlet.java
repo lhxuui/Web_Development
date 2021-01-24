@@ -37,7 +37,8 @@ public class ViewItemServlet extends HttpServlet {
 
             LogService logService = new LogService();
             String logInfo = logService.logInfo(" ") + strBackUrl + " 查看具体商品 " + item;
-            logService.insertLogInfo(account.getUsername(), logInfo);
+            session.setAttribute("message",logInfo);
+
         }
 
         request.getRequestDispatcher(VIEW_ITEM).forward(request, response);
