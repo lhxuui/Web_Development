@@ -7,19 +7,148 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/add-content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/css/c01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/images/constructive-backdrop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/images/constructive-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c01/js/add-content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/arithmetic-operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/array-constructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/array-literal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/boolean-variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/css/c02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/custom-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/elderflower-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/hobart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/paper-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/tick-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/images/toggle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/arithmetic-operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/array-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/array-literal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/boolean-variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/numeric-variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/shorthand-variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/string-operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/string-variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/string-with-quotes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/update-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/js/update-variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/numeric-variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/sale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/shorthand-variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/string-operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/string-variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/string-with-quotes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/update-array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c02/update-variable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/adding-and-removing-properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/css/c03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/date-object-difference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/date-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/document-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/images/check-cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/images/travelworthy-backdrop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/images/travelworthy-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/adding-and-removing-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/date-object-difference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/date-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/document-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/math-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/multiple-objects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/number-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/object-constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/string-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/js/window-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/math-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/multiple-objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/number-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/object-constructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/string-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/window-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c03/workspace.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c04/css/c04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c04/images/bullseye-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c04/images/teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/css/c05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/2xkinglogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/icon-calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/icon-heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/icon-link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/icon-trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c05/images/kinglogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/css/c06.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/event-listener.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/2xkinglogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/icon-calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/icon-heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/icon-link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/icon-trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/kinglogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/record.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/tip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/images/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JsAndJQueryTextbook/c06/js/event-listener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/SessionAttributeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/filter/LogFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/SessionAttributeListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/filter/LogFilter.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/SessionAttributeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/filter/LogFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/AddItemToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/AddItemToCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/EditAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/EditAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/Log4InitServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewOrderFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/RemoveItemFormCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/RemoveItemFormCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SaveAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SaveAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingAddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingAddressServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOffServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnFormServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewItemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewItemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewListOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewListOrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewOrderServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/jpetstore/META-INF/jpetstore.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/META-INF/mypetstore.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/AddItemToCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/AddItemToCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/EditAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/EditAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/Log4InitServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewOrderFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/RemoveItemFormCartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/RemoveItemFormCartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SaveAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SaveAccountServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingAddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingAddressServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOffServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnFormServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewItemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewItemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewListOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewListOrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewOrderServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/AddItemToCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/AddItemToCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" afterDir="false" />
@@ -84,14 +213,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15078124" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.mypetstore.persistence" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.mypetstore.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\ProjectFiles\Java\src\org\mypetstore\domain" />
@@ -99,6 +225,9 @@
       <recent name="F:\ProjectFiles\Java\web\WEB-INF\jsp\order" />
       <recent name="F:\ProjectFiles\Java\web\WEB-INF\jsp\cart" />
       <recent name="F:\ProjectFiles\Java\web\WEB-INF\jsp\account" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.mypetstore.service" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.30">
@@ -208,58 +337,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606741814575" />
+    <state x="406" y="34" key="CommitChangelistDialog2" timestamp="1608609293204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="406" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608609293204" />
     <state x="690" y="215" key="FileChooserDialogImpl" timestamp="1607410388086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607410388086" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.0.bottom" timestamp="1608610193704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1606742474467">
+    <state width="933" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193704" />
+    <state width="933" height="267" key="GridCell.Tab.0.center" timestamp="1608610193704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474467" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1606742474467">
+    <state width="933" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193704" />
+    <state width="933" height="267" key="GridCell.Tab.0.left" timestamp="1608610193702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474467" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193702" />
+    <state width="933" height="267" key="GridCell.Tab.0.right" timestamp="1608610193704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.1.bottom" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193704" />
+    <state width="933" height="267" key="GridCell.Tab.1.bottom" timestamp="1608610193706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.1.center" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193706" />
+    <state width="933" height="267" key="GridCell.Tab.1.center" timestamp="1608610193705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.1.left" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193705" />
+    <state width="933" height="267" key="GridCell.Tab.1.left" timestamp="1608610193705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.1.right" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193705" />
+    <state width="933" height="267" key="GridCell.Tab.1.right" timestamp="1608610193706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.2.bottom" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193706" />
+    <state width="933" height="267" key="GridCell.Tab.2.bottom" timestamp="1608610193707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.2.center" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193707" />
+    <state width="933" height="267" key="GridCell.Tab.2.center" timestamp="1608610193706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.2.left" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193706" />
+    <state width="933" height="267" key="GridCell.Tab.2.left" timestamp="1608610193706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
-    <state width="1867" height="267" key="GridCell.Tab.2.right" timestamp="1606742474468">
+    <state width="933" height="267" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193706" />
+    <state width="933" height="267" key="GridCell.Tab.2.right" timestamp="1608610193706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606742474468" />
+    <state width="933" height="267" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608610193706" />
     <state width="1867" height="267" key="GridCell.Tab.3.bottom" timestamp="1606741599054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -296,10 +429,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="495" y="147" width="990" height="746" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607410421440" />
-    <state x="333" y="0" key="SettingsEditor" timestamp="1605531053958">
+    <state x="333" y="0" key="SettingsEditor" timestamp="1608608714368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="333" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605531053958" />
+    <state x="333" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608608714368" />
+    <state x="452" y="181" key="Vcs.Push.Dialog.v2" timestamp="1611035332235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611035332235" />
+    <state x="565" y="270" width="827" height="353" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1608608657030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="270" width="827" height="353" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608608657030" />
     <state x="532" y="237" key="run.anything.popup" timestamp="1605459548192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
