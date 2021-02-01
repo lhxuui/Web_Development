@@ -18,30 +18,30 @@ public class SaveAccountServlet extends HttpServlet {
     private Account account;
     private AccountService accountService;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = req.getSession();
         account = (Account) session.getAttribute("account");
 
         String username = account.getUsername();
-        String password = request.getParameter("password");
-        String firstName = request.getParameter("firstName");
-        String lastName = request.getParameter("lastName");
-        String email = request.getParameter("email");
-        String phone = request.getParameter("phone");
-        String address1 = request.getParameter("address1");
-        String address2 = request.getParameter("address2");
-        String city = request.getParameter("city");
-        String state = request.getParameter("state");
-        String zip = request.getParameter("zip");
-        String country = request.getParameter("country");
-        String languagePreference = request.getParameter("languagePreference");
-        String favouriteCategoryId = request.getParameter("favouriteCategoryId");
-        String listOption = request.getParameter("listOption");
-        String bannerOption = request.getParameter("bannerOption");
+        String password = req.getParameter("password");
+        String firstName = req.getParameter("firstName");
+        String lastName = req.getParameter("lastName");
+        String email = req.getParameter("email");
+        String phone = req.getParameter("phone");
+        String address1 = req.getParameter("address1");
+        String address2 = req.getParameter("address2");
+        String city = req.getParameter("city");
+        String state = req.getParameter("state");
+        String zip = req.getParameter("zip");
+        String country = req.getParameter("country");
+        String languagePreference = req.getParameter("languagePreference");
+        String favouriteCategoryId = req.getParameter("favouriteCategoryId");
+        String listOption = req.getParameter("listOption");
+        String bannerOption = req.getParameter("bannerOption");
 
         account.setUsername(username);
         account.setPassword(password);
@@ -66,8 +66,8 @@ public class SaveAccountServlet extends HttpServlet {
         session.setAttribute("account", account);
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -76,6 +76,6 @@ public class SaveAccountServlet extends HttpServlet {
 
         }
 
-        request.getRequestDispatcher(EDITACOUNT).forward(request, response);
+        req.getRequestDispatcher(EDITACOUNT).forward(req, response);
     }
 }

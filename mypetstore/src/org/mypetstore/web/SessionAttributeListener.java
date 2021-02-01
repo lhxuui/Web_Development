@@ -16,17 +16,21 @@ public class SessionAttributeListener implements HttpSessionAttributeListener {
 
     @Override
     public void attributeRemoved(HttpSessionBindingEvent se) {
-
     }
 
     @Override
     public void attributeReplaced(HttpSessionBindingEvent se) {
         String attributeValue = (String)se.getValue();
-        Account account = (Account)se.getSession().getAttribute("account");
-        String userName = account.getUsername();
-        String attributeName = se.getName();
-        if(attributeName.equals("message")){
-            logService.insertLogInfo(userName, attributeValue);
+        if(se.getSession().getAttribute("account") != null){
+            Account account = (Account)se.getSession().getAttribute("account");
+            if(account.getUsername() != null) {
+                String userName = account.getUsername();
+                String attributeName = se.getName();
+                if (attributeName.equals("message")) {
+                    logService.insertLogInfo(userName, attributeValue);
+                }
+            }
         }
+
     }
 }

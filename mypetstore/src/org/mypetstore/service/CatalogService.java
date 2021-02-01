@@ -42,12 +42,8 @@ public class CatalogService {
         return productDAO.getProductListByCategory(categoryId);
     }
 
-    public List<Product> searchProductList(String keywords) {
-        List<Product> products = new ArrayList<>();
-        for (String keyword : keywords.split("\\s+")) {
-            products.addAll(productDAO.searchProductList("%" + keyword.toLowerCase() + "%"));
-        }
-        return products;
+    public List<Product> searchProductList(String keyword) {
+        return productDAO.searchProductList("%" + keyword.toLowerCase() + "%");
     }
 
     public List<Item> getItemListByProduct(String productId) {

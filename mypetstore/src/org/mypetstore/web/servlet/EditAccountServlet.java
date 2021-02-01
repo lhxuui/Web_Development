@@ -14,17 +14,17 @@ public class EditAccountServlet extends HttpServlet {
 
     private static final String EDITACOUNT = "/WEB-INF/jsp/account/EditAccountForm.jsp";
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        HttpSession session = req.getSession();
         Account account = (Account)session.getAttribute("account");
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -32,6 +32,6 @@ public class EditAccountServlet extends HttpServlet {
             session.setAttribute("message",logInfo);
         }
 
-        request.getRequestDispatcher(EDITACOUNT).forward(request, response);
+        req.getRequestDispatcher(EDITACOUNT).forward(req, resp);
     }
 }

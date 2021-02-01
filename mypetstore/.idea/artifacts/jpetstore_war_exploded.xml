@@ -9,6 +9,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="mysql-connector-java-8.0.21" />
+          <element id="library" level="project" name="fastjson-1.2.75" />
         </element>
       </element>
     </root>

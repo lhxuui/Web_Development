@@ -24,21 +24,21 @@ public class ShippingAddressServlet extends HttpServlet {
     private String shipZip;
     private String shipCountry;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        shipToFirstName = request.getParameter("shipToFirstName");
-        shipToLastName = request.getParameter("shipToLastName");
-        shipAddress1 = request.getParameter("shipAddress1");
-        shipAddress2 = request.getParameter("shipAddress2");
-        shipCity = request.getParameter("shipCity");
-        shipState = request.getParameter("shipState");
-        shipZip = request.getParameter("shipZip");
-        shipCountry = request.getParameter("shipCountry");
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        shipToFirstName = req.getParameter("shipToFirstName");
+        shipToLastName = req.getParameter("shipToLastName");
+        shipAddress1 = req.getParameter("shipAddress1");
+        shipAddress2 = req.getParameter("shipAddress2");
+        shipCity = req.getParameter("shipCity");
+        shipState = req.getParameter("shipState");
+        shipZip = req.getParameter("shipZip");
+        shipCountry = req.getParameter("shipCountry");
 
-        HttpSession session = request.getSession();
+        HttpSession session = req.getSession();
         order = (Order)session.getAttribute("order");
 
         order.setShipToFirstName(shipToFirstName);
@@ -55,8 +55,8 @@ public class ShippingAddressServlet extends HttpServlet {
         Account account = (Account)session.getAttribute("account");
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -65,6 +65,6 @@ public class ShippingAddressServlet extends HttpServlet {
 
         }
 
-        request.getRequestDispatcher(CONFIRM_ORDER_FORM).forward(request, response);
+        req.getRequestDispatcher(CONFIRM_ORDER_FORM).forward(req, response);
     }
 }

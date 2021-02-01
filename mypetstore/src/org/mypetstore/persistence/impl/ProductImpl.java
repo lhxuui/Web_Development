@@ -65,12 +65,12 @@ public class ProductImpl implements ProductDAO {
     }
 
     @Override
-    public List<Product> searchProductList(String keywords) {
+    public List<Product> searchProductList(String keyword) {
         List<Product> productList = new ArrayList<Product>();
         try {
             Connection connection = DBUtil.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(searchProductListString);
-            preparedStatement.setString(1,keywords);
+            preparedStatement.setString(1,keyword);
             ResultSet resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
                 Product product = new Product();

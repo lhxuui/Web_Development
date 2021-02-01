@@ -22,16 +22,16 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
     private String workingItemId;
     private Cart cart;
     private String userId;
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        workingItemId = request.getParameter("workingItemId");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        workingItemId = req.getParameter("workingItemId");
         CatalogService catalogService = new CatalogService();
 
         //从对话中，获取购物车
-        HttpSession session = request.getSession();
+        HttpSession session = req.getSession();
         cart = (Cart)session.getAttribute("cart");
 
         Account account = (Account)session.getAttribute("account");
@@ -49,7 +49,7 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
             String itemId = cartItem.getItem().getItemId();
 
             try {
-                int quantity = Integer.parseInt((String) request.getParameter(itemId));
+                int quantity = Integer.parseInt((String) req.getParameter(itemId));
                 cartService.setQuantity(itemId,quantity,userId);
                 if (quantity < 1) {
                     cartService.removeCarItem(itemId,userId);
@@ -62,8 +62,8 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
         session.setAttribute("cart", cart);
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -72,6 +72,6 @@ public class UpdateCartQuantitiesServlet extends HttpServlet {
 
         }
 
-        request.getRequestDispatcher(VIEW_CART).forward(request, response);
+        req.getRequestDispatcher(VIEW_CART).forward(req, resp);
     }
 }

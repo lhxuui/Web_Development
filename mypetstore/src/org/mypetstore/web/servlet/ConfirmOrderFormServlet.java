@@ -20,22 +20,22 @@ public class ConfirmOrderFormServlet extends HttpServlet {
     private Order order;
     private OrderService orderService;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req,resp);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        shippingAddressRequired = request.getParameter("shippingAddressRequired");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        shippingAddressRequired = req.getParameter("shippingAddressRequired");
         order = new Order();
 
-        HttpSession session = request.getSession();
+        HttpSession session = req.getSession();
         order = (Order)session.getAttribute("order");
         Account account = (Account)session.getAttribute("account");
 
         if (shippingAddressRequired == null){
             if(account != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -43,14 +43,14 @@ public class ConfirmOrderFormServlet extends HttpServlet {
                 logService.insertLogInfo(account.getUsername(), logInfo);
             }
 
-            request.getRequestDispatcher(CONFIRM_ORDER_FORM).forward(request, response);
+            req.getRequestDispatcher(CONFIRM_ORDER_FORM).forward(req, resp);
         }
         else{
             shippingAddressRequired = null;
 
             if(account != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -58,7 +58,7 @@ public class ConfirmOrderFormServlet extends HttpServlet {
                 session.setAttribute("message",logInfo);
             }
 
-            request.getRequestDispatcher(SHIPPINGFORM).forward(request, response);
+            req.getRequestDispatcher(SHIPPINGFORM).forward(req, resp);
         }
 
     }

@@ -15,17 +15,17 @@ public class SignOffServlet extends HttpServlet {
 
     private Account account;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = req.getSession();
         Account account = (Account)session.getAttribute("account");
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -36,6 +36,6 @@ public class SignOffServlet extends HttpServlet {
         account = null;
         session.setAttribute("account", account);
 
-        request.getRequestDispatcher(MAIN).forward(request, response);
+        req.getRequestDispatcher(MAIN).forward(req, response);
     }
 }

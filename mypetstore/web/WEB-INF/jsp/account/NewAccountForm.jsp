@@ -2,17 +2,20 @@
 ${sessionScope.messageAccount}
 
 <div id="Catalog">
-	<form action="newAccount" method="post">
+	<form action="newAccount" method="post" id="signupForm">
 		<h3>User Information</h3>
 
 		<table>
 			<tr>
 				<td>User ID:</td>
-				<td><input type="text" name="username"/></td>
+				<td><input type="text" name="username" id="username"/>
+					<div id="msg"></div>
+				</td>
+
 			</tr>
 			<tr>
-				<td>New password:</td>
-				<td><input type="text" name="password" /></td>
+				<td >New password:</td>
+				<td><input type="text" name="password" id="password" /></td>
 			</tr>
 			<tr>
 				<td>Repeat password:</td>
@@ -30,6 +33,7 @@ ${sessionScope.messageAccount}
 		<%@ include file="IncludeAccountFields.jsp"%>
 		<input type="submit" name="newAccount" value="Save Account Information" />
 	</form>
+	<script src="js/new-account-validation.js"></script>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

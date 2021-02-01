@@ -16,23 +16,23 @@ public class ViewItemServlet extends HttpServlet {
     private static final String VIEW_ITEM = "/WEB-INF/jsp/catalog/Item.jsp";
     private String itemId;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        itemId = request.getParameter("itemId");
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        itemId = req.getParameter("itemId");
         CatalogService service = new CatalogService();
         Item item = service.getItem(itemId);
 
-        HttpSession session = request.getSession();
+        HttpSession session = req.getSession();
         session.setAttribute("item", item);
 
         Account account = (Account)session.getAttribute("account");
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -41,6 +41,6 @@ public class ViewItemServlet extends HttpServlet {
 
         }
 
-        request.getRequestDispatcher(VIEW_ITEM).forward(request, response);
+        req.getRequestDispatcher(VIEW_ITEM).forward(req, response);
     }
 }

@@ -21,19 +21,19 @@ public class NewOrderFormServlet extends HttpServlet {
     private Order order;
     private Cart cart;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
 
-        HttpSession session = request.getSession();
+        HttpSession session = req.getSession();
         account = (Account)session.getAttribute("account");
         cart = (Cart)session.getAttribute("cart");
 
         if (account == null){
             session.setAttribute("message", "You must sign on before attempting to check out.  Please sign on and try checking out again.");
-            request.getRequestDispatcher(SIGNONFORM).forward(request, response);
+            req.getRequestDispatcher(SIGNONFORM).forward(req, response);
         } else if(cart != null){
             order = new Order();
             order.initOrder(account, cart);
@@ -42,8 +42,8 @@ public class NewOrderFormServlet extends HttpServlet {
             Account account = (Account)session.getAttribute("account");
 
             if(account != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -52,15 +52,15 @@ public class NewOrderFormServlet extends HttpServlet {
 
             }
 
-            request.getRequestDispatcher(NEW_ORDER).forward(request, response);
+            req.getRequestDispatcher(NEW_ORDER).forward(req, response);
         }else{
             session.setAttribute("message", "An order could not be created because a cart could not be found.");
 
             Account account = (Account)session.getAttribute("account");
 
             if(account != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -69,7 +69,7 @@ public class NewOrderFormServlet extends HttpServlet {
 
             }
 
-            request.getRequestDispatcher(ERROR).forward(request, response);
+            req.getRequestDispatcher(ERROR).forward(req, response);
         }
     }
 }

@@ -44,7 +44,7 @@
                                 ${cartItem.inStock}
                             </td>
                             <td>
-                                <input type="text" size="3" name="${cartItem.item.itemId}" value="${cartItem.quantity}"/>
+                                <input type="text" size="3" name="${cartItem.item.itemId}" value="${cartItem.quantity}" id="quantity"/>
                             </td>
                             <td>
                                 <fmt:formatNumber value="${cartItem.item.listPrice}" pattern="$#,##0.00" />

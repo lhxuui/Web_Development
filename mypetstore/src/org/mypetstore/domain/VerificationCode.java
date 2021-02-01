@@ -22,18 +22,18 @@ public class VerificationCode extends HttpServlet {
         super.destroy();
     }
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
+    public void doGet(HttpServletRequest req, HttpServletResponse response)
             throws ServletException, IOException {
 
-        doPost(request, response);
+        doPost(req, response);
     }
 
 
-    public void doPost(HttpServletRequest request, HttpServletResponse response)
+    public void doPost(HttpServletRequest req, HttpServletResponse response)
             throws ServletException, IOException {
 
         response.setContentType("image/jpeg");
-        HttpSession session=request.getSession();
+        HttpSession session=req.getSession();
         int width=60;
         int height=20;
 

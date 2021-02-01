@@ -13,17 +13,17 @@ import java.io.IOException;
 public class NewAccountFormServlet extends HttpServlet {
     private static final String NEWACCOUNTFORM = "/WEB-INF/jsp/account/NewAccountForm.jsp";
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = req.getSession();
         Account account = (Account)session.getAttribute("account");
 
         if(account != null){
-            HttpServletRequest httpRequest= request;
-            String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+            HttpServletRequest httpRequest= req;
+            String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                     + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
             LogService logService = new LogService();
@@ -31,6 +31,6 @@ public class NewAccountFormServlet extends HttpServlet {
             session.setAttribute("message",logInfo);
         }
 
-        request.getRequestDispatcher(NEWACCOUNTFORM).forward(request, response);
+        req.getRequestDispatcher(NEWACCOUNTFORM).forward(req, response);
     }
 }

@@ -18,6 +18,10 @@
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="Pragma" content="no-cache" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/search-product.js"></script>
+    <link rel="StyleSheet" href="css/jquery-ui.css" type="text/css">
 </head>
 
 <body>
@@ -53,10 +57,12 @@
 
     <div id="Search">
         <div id="SearchContent">
+            <div class="ui-widget">
             <form action="searchProduct" method="post">
-                <input type="text" name="keyword" size="14" /> <input type="submit"
+                <input type="text" name="keyword" size="14" id="searchText" class="search"/> <input type="submit"
                                                                       name="searchProducts" value="Search" />
             </form>
+            </div>
         </div>
     </div>
 

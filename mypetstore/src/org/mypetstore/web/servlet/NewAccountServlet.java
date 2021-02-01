@@ -19,18 +19,18 @@ public class NewAccountServlet extends HttpServlet {
     private Account account1;
     private AccountService accountService;
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+    protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        doGet(req, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        HttpSession session = req.getSession();
         account = (Account) session.getAttribute("account");
         account = null;
         session.setAttribute("account", account);
 
         //获得输入的验证码值
-        String value1=request.getParameter("vCode");
+        String value1=req.getParameter("vCode");
         /*获取图片的值*/
         String value2=(String)session.getAttribute("checkcode");
         Boolean isSame = false;
@@ -39,22 +39,22 @@ public class NewAccountServlet extends HttpServlet {
             isSame = true;
         }
 
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
-        String firstName = request.getParameter("firstName");
-        String lastName = request.getParameter("lastName");
-        String email = request.getParameter("email");
-        String phone = request.getParameter("phone");
-        String address1 = request.getParameter("address1");
-        String address2 = request.getParameter("address2");
-        String city = request.getParameter("city");
-        String state = request.getParameter("state");
-        String zip = request.getParameter("zip");
-        String country = request.getParameter("country");
-        String languagePreference = request.getParameter("languagePreference");
-        String favouriteCategoryId = request.getParameter("favouriteCategoryId");
-        String listOption = request.getParameter("listOption");
-        String bannerOption = request.getParameter("bannerOption");
+        String username = req.getParameter("username");
+        String password = req.getParameter("password");
+        String firstName = req.getParameter("firstName");
+        String lastName = req.getParameter("lastName");
+        String email = req.getParameter("email");
+        String phone = req.getParameter("phone");
+        String address1 = req.getParameter("address1");
+        String address2 = req.getParameter("address2");
+        String city = req.getParameter("city");
+        String state = req.getParameter("state");
+        String zip = req.getParameter("zip");
+        String country = req.getParameter("country");
+        String languagePreference = req.getParameter("languagePreference");
+        String favouriteCategoryId = req.getParameter("favouriteCategoryId");
+        String listOption = req.getParameter("listOption");
+        String bannerOption = req.getParameter("bannerOption");
 
         account1 = new Account();
         account1.setUsername(username);
@@ -81,8 +81,8 @@ public class NewAccountServlet extends HttpServlet {
             accountService.insertAccount(account1);
 
             if(account1 != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -90,13 +90,13 @@ public class NewAccountServlet extends HttpServlet {
                 logService.insertLogInfo(account1.getUsername(), logInfo);
             }
 
-            request.getRequestDispatcher(MAIN).forward(request, response);
+            req.getRequestDispatcher(MAIN).forward(req, response);
         }else{
             session.setAttribute("messageAccount", "Invalid Verification Code.");
 
             if(account1 != null){
-                HttpServletRequest httpRequest= request;
-                String strBackUrl = "http://" + request.getServerName() + ":" + request.getServerPort()
+                HttpServletRequest httpRequest= req;
+                String strBackUrl = "http://" + req.getServerName() + ":" + req.getServerPort()
                         + httpRequest.getContextPath() + httpRequest.getServletPath() + "?" + (httpRequest.getQueryString());
 
                 LogService logService = new LogService();
@@ -104,7 +104,7 @@ public class NewAccountServlet extends HttpServlet {
                 session.setAttribute("message",logInfo);
             }
 
-            request.getRequestDispatcher(NEWACCOUNTFORM).forward(request, response);
+            req.getRequestDispatcher(NEWACCOUNTFORM).forward(req, response);
         }
     }
 }
