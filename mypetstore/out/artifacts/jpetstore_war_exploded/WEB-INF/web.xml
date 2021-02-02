@@ -124,15 +124,6 @@
         <url-pattern>/saveAccount</url-pattern>
     </servlet-mapping>
 
-    <!--日志检验-->
-    <servlet>
-        <servlet-name>Log4InitServlet</servlet-name>
-        <servlet-class>org.mypetstore.web.servlet.Log4InitServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Log4InitServlet</servlet-name>
-        <url-pattern>/log4Init</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>LogServlet</servlet-name>
@@ -160,7 +151,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ConfirmOrderFormServlet</servlet-name>
-        <url-pattern>/conFirmOrderForm</url-pattern>
+        <url-pattern>/confirmOrderForm</url-pattern>
     </servlet-mapping>
 
     <!--查看最终订单-->

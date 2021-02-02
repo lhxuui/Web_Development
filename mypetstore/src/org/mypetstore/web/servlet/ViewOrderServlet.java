@@ -42,7 +42,6 @@ public class ViewOrderServlet extends HttpServlet {
 
             session.setAttribute("message", "Thank you, your order has been submitted.");
 
-            //HttpSession session = req.getSession();
             Account account = (Account)session.getAttribute("account");
 
             if(account != null){

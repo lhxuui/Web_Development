@@ -1,4 +1,3 @@
-<%@ include file="../common/IncludeTop.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <div id="BackLink">
@@ -6,8 +5,8 @@
 </div>
 
 <div id="Catalog">Please confirm the information below and then press continue...
-
-<table>
+<form id="confirmOrder" method="post">
+	<table>
 	<tr>
 		<th align="center" colspan="2"><font size="4"><b>Order</b></font>
 		<br />
@@ -89,10 +88,9 @@
 	</tr>
 
 </table>
-	<a class="Button" href="viewOrder">Confirm</a>
+	<input type="submit" name="newOrder" value="Confirm"/>
+</form>
 </div>
-
-<%@ include file="../common/IncludeBottom.jsp"%>
 
 
 
