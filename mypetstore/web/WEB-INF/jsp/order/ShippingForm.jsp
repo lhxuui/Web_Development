@@ -1,8 +1,7 @@
-<%@ include file="../common/IncludeTop.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <div id="Catalog">
-<form action="shippingAddress" method="post">
+<form action="shippingAddress" method="post" id="shippingForm">
 	<table>
 		<tr>
 			<th colspan=2>Shipping Address</th>
@@ -45,5 +44,3 @@
 	<input type="submit" name="newOrder" value="Continue"/>
 </form>
 </div>
-
-<%@ include file="../common/IncludeBottom.jsp"%>

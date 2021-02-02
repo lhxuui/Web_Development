@@ -22,7 +22,6 @@ public class CategoryShowServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String categoryId = req.getParameter("categoryId");
-        System.out.println(categoryId);
         CatalogService catalogService = new CatalogService();
         List<Product> productList = catalogService.getProductListByCategory(categoryId);
 

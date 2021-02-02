@@ -1,4 +1,3 @@
-<%@ include file="../common/IncludeTop.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <h2>My Orders</h2>
@@ -25,6 +24,5 @@
 	</c:forEach>
 </table>
 
-<%@ include file="../common/IncludeBottom.jsp"%>
 
 

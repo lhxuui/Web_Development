@@ -4,12 +4,11 @@
 <div id="tabs">
 	<ul>
 		<li><a href="#tabs-1">Order Form</a></li>
-		<li><a href="#tabs-2">ConfirmOrder</a></li>
 	</ul>
 
 <div id="tabs-1">
 <div id="Catalog">
-	<form action="conFirmOrderForm" method="post">
+	<form action="confirmOrderForm" method="post" id="newOrderForm">
 	    <table>
 			<tr>
 				<th colspan=2>Payment Details</th>
@@ -96,12 +95,9 @@
 				</td>
 			</tr>
 		</table>
-		<input type="submit" name="newOrder" value="Continue"/>
+		<input type="submit" name="newOrder" value="Continue" />
 	</form>
 </div>
-</div>
-<div id="tabs-2">
-	<a href="/shippingAddress"><a/>
 </div>
 </div>
 <script src="js/order-tab.js"></script>

@@ -6,11 +6,13 @@ import org.mypetstore.domain.Order;
 import org.mypetstore.service.LogService;
 
 import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class NewOrderFormServlet extends HttpServlet {
     private static final String NEW_ORDER = "/WEB-INF/jsp/order/NewOrderForm.jsp";
@@ -25,7 +27,7 @@ public class NewOrderFormServlet extends HttpServlet {
         doGet(req, resp);
     }
 
-    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         HttpSession session = req.getSession();
         account = (Account)session.getAttribute("account");
@@ -33,7 +35,7 @@ public class NewOrderFormServlet extends HttpServlet {
 
         if (account == null){
             session.setAttribute("message", "You must sign on before attempting to check out.  Please sign on and try checking out again.");
-            req.getRequestDispatcher(SIGNONFORM).forward(req, response);
+            req.getRequestDispatcher(SIGNONFORM).forward(req, resp);
         } else if(cart != null){
             order = new Order();
             order.initOrder(account, cart);
@@ -52,7 +54,7 @@ public class NewOrderFormServlet extends HttpServlet {
 
             }
 
-            req.getRequestDispatcher(NEW_ORDER).forward(req, response);
+            req.getRequestDispatcher(NEW_ORDER).forward(req, resp);
         }else{
             session.setAttribute("message", "An order could not be created because a cart could not be found.");
 
@@ -69,7 +71,7 @@ public class NewOrderFormServlet extends HttpServlet {
 
             }
 
-            req.getRequestDispatcher(ERROR).forward(req, response);
+            req.getRequestDispatcher(ERROR).forward(req, resp);
         }
     }
 }
