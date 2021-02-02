@@ -1,6 +1,13 @@
 <%@ include file="../common/IncludeTop.jsp"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Order Form</a></li>
+		<li><a href="#tabs-2">ConfirmOrder</a></li>
+	</ul>
+
+<div id="tabs-1">
 <div id="Catalog">
 	<form action="conFirmOrderForm" method="post">
 	    <table>
@@ -92,5 +99,10 @@
 		<input type="submit" name="newOrder" value="Continue"/>
 	</form>
 </div>
-
+</div>
+<div id="tabs-2">
+	<a href="/shippingAddress"><a/>
+</div>
+</div>
+<script src="js/order-tab.js"></script>
 <%@ include file="../common/IncludeBottom.jsp"%>

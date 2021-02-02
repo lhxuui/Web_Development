@@ -1,0 +1,18 @@
+.inform{
+    position: fixed;
+    left:70%;
+    width: 350px;
+    max-height: 350px;
+    z-index: 10;
+    background-color: #e5d8bd;
+    word-wrap: break-word;
+    box-shadow:0px 0px 10px #000;
+    display: none;
+}
+
+
+.inform hr{
+    border:1px;
+    width: 325px;
+    margin-bottom: 0px;
+}

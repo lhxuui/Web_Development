@@ -1,17 +1,22 @@
 $(document).ready(function () {
-    $('#quantity').on('blur', function () {
-        if($('#quantiy').val() === null || $('#quantity').val() !== "" || !isNaN(parseInt($.('#quantity')).val()) ){
-            $('#quantity').history.go(-1);
+    $('#quantity').on('blur', function (e) {
+        if($('#quantity').val() === null || $('#quantity').val() === "" || isNaN(parseInt($('#quantity').val())) ){
+
         }
-        $.ajax({
+        else{
+            $.ajax({
             url: 'UpdateCartServlet',
             type: 'post',
             data: {
-            quantity: this.val(),
+            quantity: $('#quantity').val(),
             },
             success: function (msg) {
-                $('#quantity')
+                let array = msg.split(',');
+                $('#total').innerText = array[1];
+                $('#quantity').innerText = array[0];
+                $('#subtotal').innerText = array[2];
             }
         })
+        }
     });
 });

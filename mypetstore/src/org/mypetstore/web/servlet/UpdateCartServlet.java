@@ -60,5 +60,7 @@ public class UpdateCartServlet extends HttpServlet {
         resp.setContentType("text/xml");
         PrintWriter out = resp.getWriter();
         out.write(quantityAll);
+        out.flush();
+        out.close();
     }
 }

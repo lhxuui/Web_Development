@@ -6,93 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="Ajax update">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fastjson_1_2_75.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/CheckUsernameServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SearchProductResultServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/new-account-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/search-product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/update-cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jpetstore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jpetstore_war_exploded.xml" afterDir="false" />
+    <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/CategoryShowServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/mouseover-inform.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mouse-hover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/order-tab.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mypetstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mypetstore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/domain/VerificationCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/domain/VerificationCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/persistence/impl/ProductImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/persistence/impl/ProductImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/service/CatalogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/service/CatalogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/SessionAttributeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/SessionAttributeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/filter/LogFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/EditAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/EditAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/NewOrderFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SaveAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SaveAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingAddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingAddressServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ShippingFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOffServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewItemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewItemServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewListOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewListOrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/classes/org/mypetstore/web/servlet/ViewOrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/catalog/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/domain/VerificationCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/domain/VerificationCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/persistence/impl/ProductImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/persistence/impl/ProductImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/service/CatalogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/service/CatalogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/SessionAttributeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/SessionAttributeListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/filter/LogFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ConfirmOrderFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/EditAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/EditAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewOrderFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/NewOrderFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SaveAccountServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SaveAccountServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingAddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingAddressServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ShippingFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOffServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnFormServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/SignOnServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/css/jpetstore.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewItemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewItemServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewListOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewListOrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mypetstore/org/mypetstore/web/servlet/ViewOrderServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/domain/VerificationCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/domain/VerificationCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/persistence/impl/ProductImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/persistence/impl/ProductImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/service/CatalogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/service/CatalogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/SessionAttributeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/SessionAttributeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/filter/LogFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ConfirmOrderFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/EditAccountServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewAccountServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewOrderFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/NewOrderFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SaveAccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SaveAccountServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingAddressServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingAddressServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ShippingFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOffServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnFormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/SignOnServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartQuantitiesServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewItemServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewItemServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewListOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewListOrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewOrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/ViewOrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/mypetstore/web/servlet/UpdateCartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/update-cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/update-cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +40,9 @@
       <list>
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,14 +71,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15078124" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ProjectFiles\mypetstore\web\css" />
+      <recent name="F:\ProjectFiles\mypetstore\web\js" />
+      <recent name="F:\ProjectFiles\mypetstore\web" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.mypetstore.persistence" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.mypetstore.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\ProjectFiles\mypetstore\web\images" />
@@ -152,14 +95,6 @@
       <recent name="F:\ProjectFiles\mypetstore\web\WEB-INF\js" />
       <recent name="F:\ProjectFiles\Java\src\org\mypetstore\domain" />
       <recent name="F:\ProjectFiles\Java\src\org\mypetstore\web\servlet" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.mypetstore.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\ProjectFiles\mypetstore\web\css" />
-      <recent name="F:\ProjectFiles\mypetstore\web\js" />
-      <recent name="F:\ProjectFiles\mypetstore\web" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.30">
@@ -256,7 +191,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -279,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606732424667" />
-    <state x="686" y="387" width="548" height="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605521979293">
+    <state x="686" y="387" width="560" height="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612243920407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="387" width="548" height="281" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1605521979293" />
+    <state x="686" y="387" width="560" height="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1612243920407" />
     <state x="266" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605496816937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -291,62 +228,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606741814575" />
-    <state x="406" y="34" key="CommitChangelistDialog2" timestamp="1612201915549">
+    <state x="406" y="34" key="CommitChangelistDialog2" timestamp="1612201928662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="406" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612201915549" />
+    <state x="406" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612201928662" />
     <state x="690" y="215" key="FileChooserDialogImpl" timestamp="1612159128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612159128646" />
-    <state width="1867" height="271" key="GridCell.Tab.0.bottom" timestamp="1612198183224">
+    <state width="1867" height="271" key="GridCell.Tab.0.bottom" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183224" />
-    <state width="1867" height="271" key="GridCell.Tab.0.center" timestamp="1612198183222">
+    <state width="1867" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.0.center" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183222" />
-    <state width="1867" height="271" key="GridCell.Tab.0.left" timestamp="1612198183222">
+    <state width="1867" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.0.left" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183222" />
-    <state width="1867" height="271" key="GridCell.Tab.0.right" timestamp="1612198183222">
+    <state width="1867" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.0.right" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183222" />
-    <state width="1867" height="271" key="GridCell.Tab.1.bottom" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.1.bottom" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.1.center" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.1.center" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.1.left" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.1.left" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.1.right" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.1.right" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.2.bottom" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.2.bottom" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.2.center" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.2.center" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.2.left" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.2.left" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
-    <state width="1867" height="271" key="GridCell.Tab.2.right" timestamp="1612198183225">
+    <state width="1867" height="271" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
+    <state width="1867" height="271" key="GridCell.Tab.2.right" timestamp="1612238632046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="271" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612198183225" />
+    <state width="1867" height="271" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612238632046" />
     <state width="1867" height="267" key="GridCell.Tab.3.bottom" timestamp="1606741599054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -423,9 +360,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612168820892" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1612199769656">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1612241818139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612199769656" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612241818139" />
   </component>
 </project>

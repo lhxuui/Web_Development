@@ -44,13 +44,13 @@
                                 ${cartItem.inStock}
                             </td>
                             <td>
-                                <input type="text" size="3" name="${cartItem.item.itemId}" value="${cartItem.quantity}"/>
+                                <input type="text" size="3" name="${cartItem.item.itemId}" value="${cartItem.quantity}" id="quantity"/>
                             </td>
                             <td>
                                 <fmt:formatNumber value="${cartItem.item.listPrice}" pattern="$#,##0.00" />
                             </td>
                             <td>
-                                <fmt:formatNumber value="${cartItem.total}" pattern="$#,##0.00" />
+                                <label id="total">${cartItem.total}</label>
                             </td>
                             <td>
                                 <a href="removeItemFromCart?cartItem=${cartItem.item.itemId}" class="Button">Remove</a>
@@ -59,8 +59,7 @@
                     </c:forEach>
                     <tr>
                         <td colspan="7">
-                            Sub Total: <fmt:formatNumber value="${cartItem.item.subTotal}" pattern="$#,##0.00" />
-                            <input class="Button" type="submit" value="Update Cart" />
+                            Sub Total: <label id="subtotal">${sessionScope.cart.subTotal}</label>
                         </td>
                         <td>&nbsp;</td>
                     </tr>
@@ -75,6 +74,7 @@
         </div>
 
         <div id="Separator">&nbsp;</div>
+        <script src="js/update-cart.js"></script>
     </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>
