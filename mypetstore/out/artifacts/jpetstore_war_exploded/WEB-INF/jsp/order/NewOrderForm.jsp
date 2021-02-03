@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1">Order Form</a></li>
+		<li id="1"><a href="#tabs-1">Order Form</a></li>
 	</ul>
 
 <div id="tabs-1">
