@@ -1,10 +1,11 @@
 $(document).ready(function () {
     $('#username').on('blur',function (e) {
-        $('#msg').hide();
+        $('#namemsg').hide();
         if($('#username').val() === null || $('#username').val() === ""){
-            $('#msg').show();
-            $('#msg').html("Username Required").css('color','red');
-        } else {
+            $('#namemsg').show();
+            $('#namemsg').html("Username Required").css('color','red');
+        }
+            else {
             $.ajax({
             url: 'CheckUsernameServlet',
             dataType: "html",
@@ -15,13 +16,13 @@ $(document).ready(function () {
                 let parseJson = jQuery.parseJSON(msg);
                 if(parseJson.message === 'exist'){
                     //$('#msg').className = 'usernameExist';
-                    $('#msg').html('Username already exist!');
+                    $('#namemsg').html('Username already exist!');
                 }
                 else{
                     //$('#msg').className = 'usernameNotExist';
-                    $('#msg').html('Username Available!');
+                    $('#namemsg').html('Username Available!');
                 }
-                $('#msg').show();
+                $('#namemsg').show();
                 console.log(msg);
             },
             error: function(){
@@ -30,6 +31,30 @@ $(document).ready(function () {
             });
         }
     });
+
+    $('#password').on('blur', function () {
+        $('#pwdmsg').hide();
+        if($('#password').val() === null || $('#password').val() === "" ) {
+            $('#pwdmsg').html("Password Required").css('color','red');
+            $('#pwdmsg').show();
+        }
+        if($('#repeat').val() !== $('#password').val()){
+            $('#repeatmsg').html("Two passwords incoherent!").css('color','red');
+            $('#repeatmsg').show();
+        }
+    });
+
+    $('#repeat').on('blur',function () {
+        $('#repeatmsg').hide();
+        if($('#repeat').val() === null || $('#repeat').val() === "" ) {
+            $('#repeatmsg').html("Password Required").css('color','red');
+            $('#repeatmsg').show();
+        }
+        if($('#repeat').val() !== $('#password').val()){
+            $('#repeatmsg').html("Two passwords incoherent!").css('color','red');
+            $('#repeatmsg').show();
+        }
+    })
 });
 
 

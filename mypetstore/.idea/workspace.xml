@@ -7,24 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f00f0245-324e-430a-baa5-4e4029728e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/css/my-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/TweenMax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/mouse-move-shadow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/css/jpetstore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/js/order-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/js/order-tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeBottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/new-account-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/new-account-validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/order-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/order-tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/js/new-account-validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jpetstore_war_exploded/js/new-account-validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606741814575" />
-    <state x="406" y="34" key="CommitChangelistDialog2" timestamp="1612274347763">
+    <state x="406" y="34" key="CommitChangelistDialog2" timestamp="1612325715490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="406" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612274347763" />
+    <state x="406" y="34" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612325715490" />
     <state x="690" y="215" key="FileChooserDialogImpl" timestamp="1612159128646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,14 +325,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="333" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612183972076" />
-    <state x="452" y="181" key="Vcs.Push.Dialog.v2" timestamp="1611035332235">
+    <state x="452" y="181" key="Vcs.Push.Dialog.v2" timestamp="1612325861201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611035332235" />
-    <state x="692" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612253454783">
+    <state x="452" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612325861201" />
+    <state x="692" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612325744120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="692" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612253454783" />
+    <state x="692" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612325744120" />
     <state x="455" y="137" width="1009" height="766" key="find.popup" timestamp="1612158614035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

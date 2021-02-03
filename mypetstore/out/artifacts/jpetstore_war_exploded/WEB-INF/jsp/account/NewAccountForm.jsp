@@ -8,18 +8,23 @@ ${sessionScope.messageAccount}
 		<table>
 			<tr>
 				<td>User ID:</td>
-				<td><input type="text" name="username" id="username"/>
-					<div id="msg"></div>
+				<td><input type="text" name="username" id="username" placeholder="Your ID"/>
+					<div id="namemsg"></div>
 				</td>
 
 			</tr>
 			<tr>
 				<td >New password:</td>
-				<td><input type="text" name="password" id="password" /></td>
+				<td><input type="text" name="password" id="password" />
+					<div id="pwdmsg"></div>
+				</td>
+
 			</tr>
 			<tr>
 				<td>Repeat password:</td>
-				<td><input type="text" name="repeatedPassword" /></td>
+				<td><input type="text" name="repeatedPassword" id="repeat" />
+					<div id="repeatmsg"></div>
+				</td>
 			</tr>
 			<tr>
 				<td>VerificationCode:</td>
